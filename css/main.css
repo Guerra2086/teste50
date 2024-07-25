@@ -551,7 +551,6 @@ button:hover {
 .footer .content {
     display: flex;
     flex: 1;
-    margin: 10px;
 }
 
 .footer .col-4 {
@@ -563,6 +562,15 @@ button:hover {
 {
     .imagem-padrao {
         display: none;
+    }
+
+    .imagem-mobile
+    {
+        display: block;
+        width: 73%;
+float: right;
+right: -50%;
+        
     }
         
     .dropdown
