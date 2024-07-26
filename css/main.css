@@ -513,7 +513,6 @@ button:hover {
     width: 73%;
     float: left;
     display: none;
-    display: flex;
     justify-content: flex-end;
     text-align: center;
 }
@@ -576,7 +575,7 @@ button:hover {
 }
 
 /* Responsividade para telas menores */
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .imagem-padrao {
         display: none;
     }
@@ -596,6 +595,7 @@ button:hover {
 
     .imagem-telemovél {
         display: block;
+        margin: 5px;
     }
 
     .imagem-PC {
@@ -627,7 +627,7 @@ button:hover {
         flex: 1;
         display: flex;
         flex-direction: column; /* Muda para coluna */
-        
+        align-items: left;
     }
 
     .banner-sobre3portatil {
