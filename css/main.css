@@ -510,13 +510,18 @@ button:hover {
 }
 
 .dropdown {
-    width: 70%;
+    width: 73%;
     float: left;
     display: none;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
 }
+
 
 .dropdown-content {
     display: none;
+    right: 12%;
     position: absolute;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -534,8 +539,11 @@ button:hover {
     width: 100%;
     border: none;
     background: none;
-    text-align: left;
     cursor: pointer;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
 }
 
 .dropdown-content button:hover {
@@ -617,8 +625,9 @@ button:hover {
         position: relative;
         display: flex;
         flex: 1;
-        flex-direction: row;
-        justify-content: space-between;
+        display: flex;
+        flex-direction: column; /* Muda para coluna */
+        
     }
 
     .banner-sobre3portatil {
@@ -627,6 +636,22 @@ button:hover {
 
     .banner-sobre3 {
         display: none;
+    }
+
+    .col-3 {
+        width: 100%; /* Ocupa 100% da largura do contêiner pai */
+        float: none; /* Remove o float */
+        display: block; /* Exibe como bloco */
+        margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
+    }
+    
+    .bloco-imagem {
+        margin: auto;
+        width: 90%; /* Ajuste conforme necessário */
+        height: auto;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
     }
 }
 
@@ -652,6 +677,10 @@ button:hover {
         display: block;
     }
 
+    .banner-sobre3portatil
+    {
+        display: block;
+    }
     .banner-sobre3 {
         display: none;
     }
