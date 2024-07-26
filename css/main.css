@@ -575,7 +575,7 @@ button:hover {
 }
 
 /* Responsividade para telas menores */
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .imagem-padrao {
         display: none;
     }
