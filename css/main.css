@@ -653,7 +653,14 @@ button:hover {
         flex: 1;
         flex-direction: column;
     }
+    
+    .imgpcdetalhes2 {
+    display: none;
 }
+    .imgteldetalhes2 {
+    display: block;
+    }
+    
 
 /* Responsividade para telas entre 500px e 1500px */
 @media (min-width: 1000px) and (max-width: 1500px) {
