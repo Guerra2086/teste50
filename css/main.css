@@ -614,6 +614,13 @@ padding: 3px;
     display: none;
     padding: 5px;
 }
+
+.imgteldeitadodetalhes
+{
+    display: none;
+    padding: 5px;
+}
+
 /* Responsividade para telas menores */
 @media (max-width: 700px) {
     .imagem-padrao {
@@ -622,6 +629,11 @@ padding: 3px;
 
 
     .banner-teledeitado
+{
+    display: none;
+}
+
+.imgteldeitadodetalhes
 {
     display: none;
 }
@@ -748,6 +760,11 @@ padding: 3px;
     display: block;
 }
 
+.imgteldeitadodetalhes
+{
+    display: block;
+}
+
     .dropdown {
         display: block;
     }
@@ -851,6 +868,8 @@ padding: 3px;
         display: block;
     }
 
+    
+
 }
 
 /* Responsividade para telas entre 500px e 1500px */
@@ -861,6 +880,10 @@ padding: 3px;
         display: none;
     }
 
+    .imgteldeitadodetalhes
+{
+    display: none;
+}
     
     .sobreteledeitado
     {
