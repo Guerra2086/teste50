@@ -598,14 +598,21 @@ padding: 3px;
     display: block;
 }
 
-
+.imagem-telemovéldeitado
+{
+    display: none;
+}
 
 /* Responsividade para telas menores */
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     .imagem-padrao {
         display: none;
     }
 
+    .imagem-telemovéldeitado
+    {
+        display: none;
+    }
     .imagem-mobile {
         display: block;
         width: 73%;
@@ -701,8 +708,121 @@ padding: 3px;
     }
 }
 
+@media (min-width: 700px) and (max-width: 1000px) {
+
+    .imagem-padrao {
+        display: none;
+    }
+
+    .imagem-mobile {
+        display: none;
+        width: 73%;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .imagem-telemovél {
+        display: none;
+        margin: 5px;
+    }
+
+    .imagem-PC {
+        display: none;
+    }
+
+    .imagem-portatil {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .content {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .footer .col-4 {
+        margin: 10px 0;
+    }
+
+    .content {
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex: 1;
+        display: flex;
+        flex-direction: column; /* Muda para coluna */
+        align-items: left;
+    }
+
+    .banner-sobre3portatil {
+        display: none;
+    }
+
+    .banner-sobre3 {
+        display: none;
+    }
+
+    .col-3 {
+        width: 100%; /* Ocupa 100% da largura do contêiner pai */
+        float: none; /* Remove o float */
+        display: block; /* Exibe como bloco */
+        margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
+    }
+    
+    .bloco-imagem {
+        margin: auto;
+        width: 90%; /* Ajuste conforme necessário */
+        height: auto;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .imgteldetalhes
+    {
+        display: none;
+    }
+
+    .imgteldetalhes2
+    {
+        display: none;
+    }
+
+    .imgpcdetalhes
+    {
+        display: none;
+    }
+
+    .imgpcdetalhes2
+    {
+        display: none;
+    }
+
+    .imagem-telemovéldeitado
+    {
+        display: block;
+    }
+
+}
+
 /* Responsividade para telas entre 500px e 1500px */
-@media (min-width: 900px) and (max-width: 1500px) {
+@media (min-width: 1000px) and (max-width: 1500px) {
+
+    .imagem-telemovéldeitado
+    {
+        display: none;
+    }
+    
     .banner-sobre {
         display: none;
     }
